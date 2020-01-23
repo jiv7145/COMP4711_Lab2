@@ -1,0 +1,49 @@
+#box {
+    border: 1.5px solid grey;
+    width: 300px;
+    border-radius: 3px;
+    height: 120px;
+}
+
+#input {
+    margin: 30px auto 10px 20px;
+    width: 250px;
+    height: 20px;
+}
+
+#artist-text {
+    font-family: "Arial";
+    text-align: center;
+    margin-top: 10px;
+}
+
+#artists {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    border: 1px solid brown;
+    width: 300px;
+    border-radius: 5px;
+}
+
+img {
+    margin: 10px;
+}
+
+.profile {
+    margin: auto;
+}
+
+.names {
+    font-weight: bold;
+}
+
+.descriptions {
+    font-family: "Aguafina Script";
+    font-size: 20px;
+}
+
+
