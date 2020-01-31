@@ -1,55 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Aguafina Script' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Aguafina Script" rel="stylesheet">
+    <script src="script.js" defer></script>
     <title>Artist App</title>
 </head>
+
 <body>
     <div id="box">
         <div id="artist-text">Artist Directory</div>
         <input type="text" id="input">
+        <button id="artist-btn">Add Artist</button>
     </div>
+    <form>
+        <input type="text" placeholder="Artist Name" maxlength="40" required><br>
+        <input type="text" placeholder="About Artist" maxlength="40" required><br>
+        <input type="text" placeholder="Image url" required><br>
+        <button id="form-btn" type="submit">Add</button>
+    </form>
     <div id="artists">
-        <div class="cards">
-            <img src="https://randomuser.me/api/portraits/med/men/10.jpg"/>
-            <div class="profile">
-                <div class="names">Barot Bellingham</div>
-                <div class="descriptions">Royal Academy</div>
-            </div>
-        </div>
-        <div class="cards">
-            <img src="https://randomuser.me/api/portraits/med/women/2.jpg" />
-            <div class="profile">
-                <div class="names">Hillary Hewitt</div>
-                <div class="descriptions">New York University</div>
-            </div>
-        </div>
-        <div class="cards">
-            <img src="https://randomuser.me/api/portraits/med/women/3.jpg" />
-            <div class="profile">
-                <div class="names">Jennifer Jerome</div>
-                <div class="descriptions">Art College</div>
-            </div>
-        </div>
-        <div class="cards">
-            <img src="https://randomuser.me/api/portraits/med/men/3.jpg" />
-            <div class="profile">
-                <div class="names">Jonathan Ferrar</div>
-                <div class="descriptions">Artist to watch in 2012</div>
-            </div>
-        </div>
-        <div class="cards">
-            <img src="https://randomuser.me/api/portraits/med/men/4.jpg" />
-            <div class="profile">
-                <div class="names">Hassum Harrod</div>
-                <div class="descriptions">Art College in New York</div>
-            </div>
-        </div>
-            
+
     </div>
 </body>
+
 </html>
