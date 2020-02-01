@@ -14,7 +14,6 @@ addArtistBtn.onclick = () => {
 }
 
 
-
 form.onsubmit = (e) => {
     e.preventDefault();
     let newArtist = document.createElement("div");
@@ -40,7 +39,7 @@ form.onsubmit = (e) => {
     let descDiv = document.createElement("div");
     descDiv.setAttribute("class", "descriptions")
     descDiv.textContent = about;
-    div.append(descDiv)
+    div.append(descDiv);
     
     newArtist.append(div);
 
@@ -55,4 +54,5 @@ form.onsubmit = (e) => {
     newArtist.append(delbtn);
     
     artists.append(newArtist);
+    form.reset();
 }

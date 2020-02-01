@@ -16,6 +16,7 @@ form {
     width: 400px;
     margin: auto;
     border: 2px solid royalblue;
+    display: none;
 }
 
 form > input {
